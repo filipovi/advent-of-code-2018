@@ -23,8 +23,6 @@ func retrieve(values []string) int {
 			sums[result] = true
 		}
 	}
-
-	return 0
 }
 
 func main() {
