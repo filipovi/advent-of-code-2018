@@ -26,7 +26,7 @@ func retrieve(values []string) int {
 }
 
 func main() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../day-01-p-01/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
